@@ -1,0 +1,22 @@
+export const cvData = {
+  name: "Fatih Tezcan",
+  title: "Mathematical Engineer",
+  phone: "+90 532 553 3019",
+  email: "fatih.tezcan00@gmail.com",
+  linkedin: "linkedin.com/in/tezcanfatih",
+  github: "github.com/fatihmatik",
+  kaggle: "kaggle.com/fatihmatic",
+  about:
+    "I’m a Mathematical Engineering graduate from Yıldız Technical University who is a motivated team player and eager to learn and contribute to Data Science, Machine Learning, and Web Design. Currently, I am actively seeking work experience to further develop my skills in the field of Data. Additionally, I am working on personal projects and completing courses related to my field.",
+  skills: [
+    "Python",
+    "HTML5",
+    "CSS3",
+    "Tailwind",
+    "SQL",
+    "JavaScript",
+    "C",
+    "React",
+    "C#",
+  ],
+};
