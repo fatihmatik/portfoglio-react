@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/portfoglio-react/static/css/main.77b525a7.css",
-    "main.js": "/portfoglio-react/static/js/main.73728173.js",
+    "main.css": "/portfoglio-react/static/css/main.fb97bd34.css",
+    "main.js": "/portfoglio-react/static/js/main.db94e997.js",
+    "static/media/ft-circular.png": "/portfoglio-react/static/media/ft-circular.d73eca3aecf8bec45998.png",
+    "static/media/sql.svg": "/portfoglio-react/static/media/sql.ed513dca4efd00fff1a0caca2fc0f72b.svg",
+    "static/media/tailwindcss.svg": "/portfoglio-react/static/media/tailwindcss.42c061462fb5bea88223472c35646f5e.svg",
     "index.html": "/portfoglio-react/index.html",
-    "main.77b525a7.css.map": "/portfoglio-react/static/css/main.77b525a7.css.map",
-    "main.73728173.js.map": "/portfoglio-react/static/js/main.73728173.js.map"
+    "main.fb97bd34.css.map": "/portfoglio-react/static/css/main.fb97bd34.css.map",
+    "main.db94e997.js.map": "/portfoglio-react/static/js/main.db94e997.js.map"
   },
   "entrypoints": [
-    "static/css/main.77b525a7.css",
-    "static/js/main.73728173.js"
+    "static/css/main.fb97bd34.css",
+    "static/js/main.db94e997.js"
   ]
 }
