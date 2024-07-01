@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="container mx-auto px-4 sm:px-8 md:px-16 lg:px-32 xl:px-64 2xl:px-[128px] font-sans">
       <Header {...cvData} />
-      <div className="grid grid-cols-2 mt-8">
+      <div className=" mt-8 flex flex-col lg:grid lg:grid-cols-2">
         <About
           aboutText={cvData.aboutText}
           highlightText={cvData.highlightText}

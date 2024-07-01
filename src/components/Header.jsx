@@ -21,9 +21,13 @@ const Header = ({ name, title, phone, email, linkedin, github, kaggle }) => {
         />
       </div>
       <div className="flex-grow text-right">
-        <h1 className="text-4xl font-bold text-gray-800 mb-2">{name}</h1>
-        <h2 className="text-2xl text-gray-600 mb-4">{title}</h2>
-        <div className="flex flex-col md:flex-row md:justify-end gap-2 md:gap-6">
+        <h1 className="text-base sm:text-sm md:text-lg lg:text-xl xl:text-3xl font-bold text-gray-800 mb-2">
+          {name}
+        </h1>
+        <h2 className="text-base sm:text-sm md:text-lg lg:text-xl xl:text-2xl text-gray-600 mb-4">
+          {title}
+        </h2>
+        <div className="flex flex-col gap-2 xl:flex-row xl:justify-end  xl:gap-6">
           <a
             href={`tel:${phone}`}
             className="text-blue-600 hover:text-blue-800"
@@ -64,13 +68,15 @@ const Header = ({ name, title, phone, email, linkedin, github, kaggle }) => {
         <div className="flex justify-end mt-4">
           <span className="font-bold mr-2 text-blue-500">Languages:</span>
           {languages.map((lang, index) => (
-            <p
-              key={`${lang}_${index}`}
-              className="mr-2 flex justify-center items-center font-medium"
-            >
+            <div className="flex flex-col justify-center items-center sm:flex sm:flex-row">
               <img src={lang.flag} alt="" className="w-5 h-5 mr-1" />
-              {lang.lang}
-            </p>
+              <p
+                key={`${lang}_${index}`}
+                className="text-sm sm:text-base mr-2 font-medium"
+              >
+                {lang.lang}
+              </p>
+            </div>
           ))}
         </div>
       </div>

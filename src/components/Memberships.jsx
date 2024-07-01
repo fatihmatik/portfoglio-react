@@ -18,7 +18,7 @@ const membershipsAndEvents = [
 const Memberships = () => {
   return (
     <section className="py-8 px-4 sm:px-8 bg-gray-50 border border-gray-200 rounded-lg shadow-md m-1">
-      <h2 className="text-3xl font-bold text-gray-800 mb-6">
+      <h2 className="text-xl md:text-3xl font-bold text-gray-800 mb-6">
         Memberships & Events
       </h2>
       <div className="space-y-6">
@@ -27,7 +27,7 @@ const Memberships = () => {
             key={index}
             className="p-6 border border-gray-300 rounded-lg shadow-sm bg-white hover:shadow-md transition duration-300 ease-in-out"
           >
-            <h3 className="text-xl font-semibold text-gray-900 mb-2">
+            <h3 className="text-xl md:text-2xl font-semibold text-gray-900 mb-2">
               {item.title}
             </h3>
             <p className="text-sm text-gray-500 mb-2">{item.date}</p>
