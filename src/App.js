@@ -8,21 +8,24 @@ import Skills from "./components/Skills";
 import ProjectsSection from "./components/Projects";
 import Certifications from "./components/Certifications";
 import Memberships from "./components/Memberships";
-import Languages from "./components/Languages";
 import Education from "./components/Education";
 
 function App() {
   return (
-    <div className="container mx-auto px-16 sm:px-4 font-sans">
+    <div className="container mx-auto px-4 sm:px-8 md:px-16 lg:px-32 xl:px-64 2xl:px-[128px] font-sans">
       <Header {...cvData} />
-      <About aboutText={cvData.about} bulletPoints={cvData.bulletPoints} />
-      <Work />
-      <Education />
-      <Skills skills={cvData.skills} />
+      <div className="grid grid-cols-2 mt-8">
+        <About
+          aboutText={cvData.aboutText}
+          highlightText={cvData.highlightText}
+        />
+        <Work />
+        <Education />
+        <Skills skills={cvData.skills} />
+      </div>
       <ProjectsSection />
       <Certifications certifications={certificationsData} />
       <Memberships />
-      <Languages />
     </div>
   );
 }

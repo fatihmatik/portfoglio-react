@@ -1,19 +1,6 @@
 import React from "react";
 
-const languages = [
-  {
-    language: "Turkish",
-    level: "Native Language",
-  },
-  {
-    language: "English",
-    level: "C1, Fluent",
-  },
-  {
-    language: "Italian",
-    level: "A2, I can hold daily conversations.",
-  },
-];
+const languages = ["Turkish", "English", "Italian"];
 
 const Languages = () => {
   return (

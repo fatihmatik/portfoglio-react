@@ -1,20 +1,14 @@
 import React from "react";
 
-const About = ({ aboutText, bulletPoints }) => {
+const About = ({ aboutText, highlightText }) => {
   return (
-    <section className="py-12 px-16 ">
+    <section className="py-8 px-4 sm:px-8 bg-gray-50 border border-gray-200 rounded-lg shadow-md m-1">
       <h3 className="text-3xl font-bold text-gray-800 mb-6">About Me</h3>
-      <p className="text-gray-700 leading-relaxed mb-6">{aboutText}</p>
-      <h4 className="text-xl font-semibold text-gray-800 mb-4">
-        My Area of Interests
-      </h4>
-      <div className="flex flex-col pl-4 font-bold">
-        {bulletPoints.map((point, index) => (
-          <p key={`${point}_index`} className="text-blue-600">
-            {point}
-          </p>
-        ))}
-      </div>
+      <p className="text-gray-700 leading-relaxed mb-6 bg-white p-4 pb-6 border border-gray-300 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 ease-in-out ">
+        {aboutText}
+
+        <span className="text-blue-600 leading-relaxed">{highlightText}</span>
+      </p>
     </section>
   );
 };
