@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfoglio-react/static/css/main.6179b758.css",
-    "main.js": "/portfoglio-react/static/js/main.e5dc815e.js",
+    "main.css": "/portfoglio-react/static/css/main.61480f66.css",
+    "main.js": "/portfoglio-react/static/js/main.bd952b62.js",
     "static/media/ft-circular.png": "/portfoglio-react/static/media/ft-circular.d73eca3aecf8bec45998.png",
     "static/media/en_flag.png": "/portfoglio-react/static/media/en_flag.7ce5673b64789ce704eb.png",
     "static/media/sql.svg": "/portfoglio-react/static/media/sql.ed513dca4efd00fff1a0caca2fc0f72b.svg",
     "static/media/tailwindcss.svg": "/portfoglio-react/static/media/tailwindcss.42c061462fb5bea88223472c35646f5e.svg",
     "index.html": "/portfoglio-react/index.html",
-    "main.6179b758.css.map": "/portfoglio-react/static/css/main.6179b758.css.map",
-    "main.e5dc815e.js.map": "/portfoglio-react/static/js/main.e5dc815e.js.map"
+    "main.61480f66.css.map": "/portfoglio-react/static/css/main.61480f66.css.map",
+    "main.bd952b62.js.map": "/portfoglio-react/static/js/main.bd952b62.js.map"
   },
   "entrypoints": [
-    "static/css/main.6179b758.css",
-    "static/js/main.e5dc815e.js"
+    "static/css/main.61480f66.css",
+    "static/js/main.bd952b62.js"
   ]
 }
