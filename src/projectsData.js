@@ -29,23 +29,24 @@ export const projects = [
     title: "Akbank Machine Learning Bootcamp",
     date: "October 2023",
     description:
-      "Hosted by GlobalAIHub, using a housing dataset from Kaggle, I created a price prediction model. I used Python, Pandas, Numpy, scikit-learn and Matplotlib.",
+      "Hosted by GlobalAIHub, using a housing dataset from Kaggle, I created a price prediction model. I used Python, Pandas, NumPy, scikit-learn and Matplotlib.",
   },
   {
     title: "Internet Programming with MVC Design Pattern",
     date: "March 2022",
     description:
-      "In our back-end course, we designed a website using MVC design pattern, we used: C#, .NET, HTML, CSS, JavaScript, jQuery etc.",
+      "In our back-end course at university, we designed a website using MVC design pattern, we used: C#, .NET, HTML, CSS, JavaScript, jQuery etc.",
   },
   {
     title: "ituacm algoComp’22 Qualification",
     date: "January 2022",
     description:
-      "Competitive programming contest. I used Python, C and Numpy for solving the algorithms.",
+      "Competitive programming contest. I used Python, C and NumPy for solving the algorithms.",
   },
   {
     title: "Setur Smarttravel Hackathon",
     date: "December 2021",
-    description: "We developed a caravan rental application.",
+    description:
+      "We developed a caravan rental site as a team. I used XAMPP and MySQL on the back-end side. I also utilized Azure Cloud platform.",
   },
 ];
