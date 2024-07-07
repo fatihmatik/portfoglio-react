@@ -22,7 +22,7 @@ const iconMapping = {
 
 const Skills = ({ skills }) => {
   return (
-    <section className="py-8 px-4 sm:px-6 lg:px-8 bg-gray-50 border border-gray-200 rounded-lg shadow-md m-1 dark:bg-neutral-800 dark:border-neutral-700">
+    <section className="py-8 px-4 sm:px-6 lg:px-8 bg-gray-50 border border-gray-200 rounded-lg shadow-md m-1 dark:bg-neutral-800 dark:border-none">
       <h2 className="text-xl md:text-3xl font-bold text-gray-800 mb-6 dark:text-white">
         Skills
       </h2>

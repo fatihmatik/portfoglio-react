@@ -1,5 +1,12 @@
 export const projects = [
   {
+    title: "AI-Enhanced Film Recommedation Site",
+    date: "July 2024",
+    description:
+      "I created a movie recommendation site using AI both as an algorithm and as a chatbot. The site was built with ReactJS and TailwindCSS, and it utilizes a model through API calls from the Hugging Face platform, where the models are deployed with Gradio Apps. The project employs Cosine Similarity and NLP methods.",
+    link: "https://fatihmatik.github.io/ai-film-site/",
+  },
+  {
     title: "E-Commerce Site",
     date: "June 2024",
     description:
