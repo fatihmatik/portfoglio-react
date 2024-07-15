@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfoglio-react/static/css/main.02849ccb.css",
-    "main.js": "/portfoglio-react/static/js/main.f4e5a4df.js",
+    "main.js": "/portfoglio-react/static/js/main.ad69751d.js",
     "static/media/ft-circular.png": "/portfoglio-react/static/media/ft-circular.d73eca3aecf8bec45998.png",
     "static/media/en_flag.png": "/portfoglio-react/static/media/en_flag.7ce5673b64789ce704eb.png",
     "static/media/sql.svg": "/portfoglio-react/static/media/sql.ed513dca4efd00fff1a0caca2fc0f72b.svg",
     "static/media/tailwindcss.svg": "/portfoglio-react/static/media/tailwindcss.42c061462fb5bea88223472c35646f5e.svg",
     "index.html": "/portfoglio-react/index.html",
     "main.02849ccb.css.map": "/portfoglio-react/static/css/main.02849ccb.css.map",
-    "main.f4e5a4df.js.map": "/portfoglio-react/static/js/main.f4e5a4df.js.map"
+    "main.ad69751d.js.map": "/portfoglio-react/static/js/main.ad69751d.js.map"
   },
   "entrypoints": [
     "static/css/main.02849ccb.css",
-    "static/js/main.f4e5a4df.js"
+    "static/js/main.ad69751d.js"
   ]
 }
