@@ -1,9 +1,16 @@
 export const certificationsData = [
   {
+    organization: "YTU SEM",
+    title: "Front-End Software Course",
+    link: "https://sem.yildiz.edu.tr/",
+    date: "July 2024",
+    description: `In this course, I learned HTML, CSS, JavaScript, ReactJS, TailwindCSS, React Redux, Redux Saga, React Native, and much more about web development tools and languages. The E-Commerce site I developed with React was the capstone project of this course. I give my deepest regards to YTU SEM for making this course accessible to me.`,
+  },
+  {
     organization: "IBM",
     title: "Data Science Specialization",
     link: "https://coursera.org/share/eca6b9924e81427ff2dce1d2fbe67158",
-    date: "June 2024",
+    date: "February 2024",
     description: `I completed the IBM Data Science Professional Certificate, upon which I could apply fundamentals of data science using Python with Pandas, Numpy, and Matplotlib for data manipulation and visualization. I have also tried to work with Jupyter Notebooks, GitHub, and SQL in data management. Finally, I also built machine learning models using Scikit-learn and covered advanced topics on SciPy optimization, Beautiful Soup web scraping, and Plotly visualizations. For the capstone project, this course focused on real-world data analysis with model evaluation. Further, I had a try at generative AI with GPT-3.5.`,
   },
   {

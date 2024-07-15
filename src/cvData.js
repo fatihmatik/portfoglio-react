@@ -20,5 +20,8 @@ export const cvData = {
     "SQL",
     "C",
     "C#",
+    "React Native",
+    "Nativewind",
+    "TypeScript",
   ],
 };
